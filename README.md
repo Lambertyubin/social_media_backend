@@ -9,21 +9,14 @@ My goal was to simulate a social network single-page application. Just for fun :
 
 ### Frontend
 
-- Some stateful logic: [link to stateful logic]
-- CSS: [link to css]
-- UI components: [link]
-  The application fetches data from a backend API that I built as part of the project.
-- Requests to API for authentication: [link]
-- Requests to API for user data: [link]
-
-- Integration tests using React Testing Library [link to example test]
+- [Link to Frontend built with React](https://github.com/Lambertyubin/social_media_frontend)
 
 ### Backend
 
-- Express.js middleware: [link]
-- API entry routes: [link to routes]
-- Example of Database model with Mongoose:
-- Application logic to retrieve data from the MongoDB database: [link]
+- Express.js middleware: [Click here](https://github.com/Lambertyubin/social_media_backend/blob/main/express.js#L29)
+- API entry routes: [User routes](https://github.com/Lambertyubin/social_media_backend/blob/main/routes/user.routes.js#L11)
+- Example of Database model with Mongoose: [User schema](https://github.com/Lambertyubin/social_media_backend/blob/main/routes/user.routes.js#L11)
+- Application logic for user related CRUD operations in MongoDB: [Click here](https://github.com/Lambertyubin/social_media_backend/blob/main/controllers/user.controller.js#L8)
 - I tested this API's CRUD operations using Postman
 
 ## Why I built the project this way
